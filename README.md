@@ -59,6 +59,7 @@ cd  < repo-name >
 
 ls
 
+` if you want to create docker image then go to ecr `
 Go to ECR
 
 - Copy & paste Log-in command
