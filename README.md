@@ -29,9 +29,21 @@ sudo su -
 
 apt update
 
-apt install awscli -y
+#### To install the AWS CLI, run the following commands.
 
+
+```
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+```
+
+#### To check awscli install or not
+
+```
 aws --version
+```
+
 
 apt install git docker.io -y
 
